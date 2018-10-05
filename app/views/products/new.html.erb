@@ -1,0 +1,26 @@
+<h1>New Product</h1>
+
+<form action='/products' method='post'>
+    <div>
+        <label for='name'>Name</label>
+        <input name="product[name]" id='name' />
+     </div>
+      <div>
+        <label>Brand</label>
+        <input name="product[brand]" />
+     </div>
+      <div>
+        <label>Qty</label>
+        <input name="product[qty]" />
+     </div>
+      <div>
+        <label>Category</label>
+        <input name="product[category]" />
+     </div>
+      <div>
+        <label>Price</label>
+        <input name="product[price]" />
+     </div>
+
+    <input type="submit" value="Create Product"/>
+</form>

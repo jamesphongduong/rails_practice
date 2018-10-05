@@ -1,0 +1,11 @@
+<h1> Products List </h1>
+
+<% @products.each do |product| %>
+    <div style="border: 1px solid black">
+        <p><%= product.name %></p>
+        <p><%= product.price %></p>
+        <p><%= product.category %></p>
+        <p><%= product.qty %></p>
+        <p><%= product.brand %></p>
+    </div>
+<% end %>
